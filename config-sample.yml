@@ -1,0 +1,20 @@
+embed_color: 959977
+
+discord:
+  token: ""
+  app_id: ""
+  guild_id: ""
+
+openrouter:
+  api_key: ""
+  base_url: "https://openrouter.ai/api/v1/chat/completions"
+  model: "perplexity/llama-3.1-sonar-huge-128k-online"
+  model_completion_price: 5
+  model_prompt_price: 5
+  system_message: >
+    You are an AI assistant.
+    Markdown rendering: Enabled
+    SVG in markdown rendering: Enabled
+    Discord chat embed rendering: Enabled
+    Internet Browsing capability: Enabled
+    Data presentation: prefer tables (auto-columns)
